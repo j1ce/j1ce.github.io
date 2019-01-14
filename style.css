@@ -1,10 +1,10 @@
 @font-face {
-font-family:SF;
-src:url(sf.otf);
+font-family: SF;
+src: url(sf.otf);
 }
 
 body {
 background-color: black;
-color:red;
-font-family:SF;
+color: red;
+font-family: SF;
 }
