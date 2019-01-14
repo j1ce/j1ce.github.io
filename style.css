@@ -1,0 +1,7 @@
+@font-face {
+font-family:SF;
+src:url(sf.otf);
+}
+html {
+font-family:SF;
+}
