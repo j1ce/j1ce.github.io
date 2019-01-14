@@ -3,10 +3,8 @@ font-family:SF;
 src:url(sf.otf);
 }
 
-html {
-font-family:SF;
-}
-
 body {
-background-color: red;
+background-color: black;
+color:red;
+font-family:SF;
 }
