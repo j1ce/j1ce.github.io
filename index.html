@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="jquery-2.0.2.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<title>ce</title>
+</head>
+
+<body>
+	<span class="hl"></span>
+	<div id="loading">
+		<div id="loading-center">
+			<div id="loading-center-absolute">
+				<div class="object" id="first_object"></div>
+				<div class="object" id="second_object" style="float:right;"></div>
+				<div aria-busy="true" aria-label="Loading" role="progressbar" class="container">
+					<div class="swing">
+						<div class="swing-l"></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div class="swing-r"></div>
+					</div>
+					<div class="shadow">
+						<div class="shadow-l"></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div class="shadow-r"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="glow">J1CE</div>
+	<div id="system-message-container">
+	</div>
+
+	<div align=center style='margin: 0px; text-decoration: none;'></div>
+         <div align=center style='font-size: 18px; padding-bootom: 5px;'>Расписание на 30.01.2019</div><table align=center cellspacing=0 cellpadding=0 class=schedule>
+         <th class=first_cell style='background-color: #f3fff3'>Аудитория</th>
+         <th class=schedule style='background-color: #dbe5f1'>Пара 1</th>
+         <th class=schedule style='background-color: #eaf1dd'>Пара 2</th>
+         <th class=schedule style='background-color: #e5e0ec'>Пара 3</th>
+         <th class=schedule style='background-color: #fde9d9'>Пара 4</th>
+         <th class=schedule style='background-color: #b5ceed'>Пара 5</th>
+         <th class=schedule style='background-color: #cedeae'>Пара 6</th>
+         <th class=schedule style='background-color: #c1b3d3'>Пара 7</th>
+         <th class=end_cell style='background-color: #fbcb97'>Пара 8</th><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>11 Гариф.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ЭМ161 Гариф. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ЭМ162 Гариф. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ЭМ162 Гариф. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ТП171 Калимул. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>12 Тимир.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ЭМ171 Тимир. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ЭМ172 Тимир. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ЭМ172 Калимул. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ЭМ152 Альмух. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>17 Ган.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ТМ171 Ган. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ТМ172 Ган. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ЭМ161 Ган. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ПБ152 Ган. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;Т151 Ган.&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>18 Гум.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ТМ171 Акит. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ТМ172 Акит. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ЭМ161 Гум. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ПБ152 Гум. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;Т151 Гум.&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>21 Вшив.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ПБ171 Азн. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;П161 Вшив. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;Т171 Вшив. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ЭМ152 Акит. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>22 Шаг.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;Т151 Шакр.&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;АТ161 Шаг. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;П151 Хасан.&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>23 Захар.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;СП171 Имаева&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;П171 Имаева&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;Э171 Имаева&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ЭМ172 Дан. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;Т171 Имаева к&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>24 Файз.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ТМ161 Наб. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;СП171 Файз. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;Т171 Файз. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;СП171 Файз.2&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>31 Цепл.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ТМ151 Цепл. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ТМ151 Цепл. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;СП161 Цепл. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ЭМ151 Цепл. 2&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;ЭМ152 Цепл. &nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;ЭМ151 Цепл. &nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;ЭМ151 Цепл.1&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>32 Пол.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;Э171 Гумер.&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ЭМ172 Акит. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>33 Шанг.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ЭМ162 Фат. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;Э161 Шанг.&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;Э161 Шанг. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;Э171 Шанг. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;ТП171 Давл.к&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>34 Мин.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ПБ171 Крекл.&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ПБ152 Крекл.&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ПБ171 Азн. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;ПБ171 Азн.к&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>35 Жук.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ПБ152 Фат. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;П151 Хасан.&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;П162 Бочар. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;ЭМ152 Бочар. &nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>41 Исак.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;КС151 Исак.&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;КС151 Исак.&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;КС151 Исак.&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>42 Хасан.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;П162 Хас.2&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;П162 Хасан. 1&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ЭМ171 Нуриев 2&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;АТ161 Мал.1&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>44 Мал.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;П171 Мал. 1&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;П172 Мал. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;П161 Мал. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ЭМ171 Мряс. 1&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;П151 Мал.&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;П171 Мал.2&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;П171 Мал.к&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>45 Алех.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;П162 Алех.2&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;П162 Алех.1&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;П161 Алех.2&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;П161 Алех.2&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>46 Тал.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;П171 Тал.2&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ТП171 Тал. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;П172 Тал. 1&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;П171 Тал. 1&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>47 Мряс.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ТМ172 Тимон. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;КС151 Альм.&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ПБ151 Цувар.ПЧ37&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;ПБ152 Цувар.ПЧ37&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>48 Наб.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ТМ172 Наб. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;КС151 Курб.&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ПБ171 Наб. 1&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>2м,4м Ахм.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;АТ171 Ахм.УП2&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;АТ171 Ахм.УП2&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;АТ171 Ахм.УП2&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;АТ171 Ахм.УП2&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>3м Гриш.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;14мАТ171Тим.1УП&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;14мАТ171Тим.1УП&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;АТ171Тим1УП&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp; &nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>5м Боч.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ТП171 Матв.&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ТП161 Матв.&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ТП161 Матв.&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ТП161 Матв.&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;ТП161 Матв.&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>6м Тонк.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;Т171 Тонк. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;Т171 Тонк. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;Т151 ТОнк.&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;Т151 ТОнк.&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>7м Имам.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;Э171 Шаймар. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;СП161 Имам. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ТП171 Давл. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ЭМ162 Шакр. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>8м Гильм.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;СП161 Дан. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ЭМ171 Дан. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ТМ161 Курб.&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;ТМ172 Дан.&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>9м Дан.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;СП151 Туйк.2&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ТМ161 Альм.&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ТМ171 Тим.&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>10м Моис.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ТМ161 Моис.1&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ТМ171 Моис. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ТМ172 Моис. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ТМ151 Моис.&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;ТМ171 Моис.2&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>11м Подр.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ПБ151 Подр.&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ПБ151 Подр.&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ПБ151 Фат.&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;СП161 Шаймар. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>13м Фазл.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ЭМ172 Мряс.1&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;АТ151 Шаг. 2&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ПБ171 Мряс. 2&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;АТ161 Шаг.2&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;АТ151 Шаг.1&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>15м Туйк</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;СП151 Туйк.1&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ЭМ161 Шаймар. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;СП151 Туйк. 2&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;СП171 Туйк. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;ЭМ161 Шайм.к.&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>16м Шакр.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ЭМ152 Ишимб2&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ЭМ151 Ишимб1&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ЭМ152 Ишим. 1&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ЭМ161 Ишим. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;ЭМ151 Ишим. 2&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;ЭМ161 Ишимб.к&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>19м Жур.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;АТ161 Шаг. 1&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;СП171 Жур. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ТМ171 Жур. 2&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ТМ172 Жур. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;ТМ171 Жур.1&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>21м Гильм.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ЭМ261ГильмУП1&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ЭМ261 Гильм1УП&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ЭМ261ГильмУП1&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;АТ151 Гильм.&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp; &nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: center;'>1 Сп.зал</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;П161 Тимерб.&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;АТ161 Тимерб.&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;П171 Тимерб.&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;СП151 Тимерб. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;П162 Исаева&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: center;'>2 Сп.зал</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;АТ161 Исаева&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;П172 Исаева&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II корпус</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-102 Манс.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ПК271 Манс. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ОПН271 Манс. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ЭМ271 Манс. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ОПН271 Манс. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;ОПН271 Манс.к&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-103 Гайн.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;САР281 Бочар. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ЭМ181 Бочар. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-105 Гайнит.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ЭМ182 Нуриев 2&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-107 Давл.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ПК261 Нурет. 1УП&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ПК261 Нурет. 1УП&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ПК261 Нурет. 1УП&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-109 Давл.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;СП181 Захар. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ТМ181 Захар. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;КС181 Захар. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;П181 Захар.&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-116 Плат.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-118 Альм.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-122 Салих.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ПК281 Салих. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ПК271 Салих. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ПК271 Салих. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ПК261 Салих. 2УП&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;ПК261 Салих. 2УП&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;ПК261 СалихУП2&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-201 Гунб.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;СП182 Гунб. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;САР281 Гунб.&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ТП181 Гунб. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ОПН281 Гунб. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-203 Хамид.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ЭМ271 Хамид. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ОПН271 Хамид. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-204 Харис.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-206 Харис.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ОПН271 Харис. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ОПН261 Харис.ПП&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ОПН261 Харис.ПП&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ОПН261 Харис.ПП&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-207 Гайнет.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;САР271 Хамаев&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;САР271 Хамаев&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-210 Шан.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ТП181 Шан. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ПК281 Шан. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ТП181 Шанг.к&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-301 Салях.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ОПН281 Салях. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;КС181 Салях. 1&nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ОПН282 Салях. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ПК281 Салях. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;П181 Салях2&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-302 Хаир.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ОПН282 Хаир. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ЭМ182 Хаир. 1&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;КС181 Хаир.к&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;АТ181 Хаир.к&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-303 Нач.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-304 Садрис.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ЭМ181 Садрисл.&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ПБ181 Садрисл.&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ЭМ281 Садрисл&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;САР271 Садрисл.&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-305 Садр.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ЭМ281 Садр. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;СП182 Садр. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-306 Шир.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ОПН281 Шир. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ОПН282 Шир. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-307 Вал.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;П181 Вал. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ПК281 Вал. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-308 Исл.Л.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ЭМ261 Ислам.2УП&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ЭМ261 Ислам.2УП&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ЭМ261 Ислам.2УП&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ЭМ261 Ислам.2УП&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;ЭМ261 Ислам.2УП&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp; &nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-401 Мурат.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;Т181 Исл.Г.А. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ТП181 Исл.Г.А. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ТМ181 Исл.Г.А.&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-402 Гив.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ОПН281 Гон. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;П181 Гив. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-403 Вороб.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;П181 Вороб. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;Э181 Вороб. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ПБ181 Вороб. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ТМ181 Вороб. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;ТМ181 Вороб.к&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-404 Карим.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;ЭМ182 Карим. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ЭМ281 Карим. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-405 Азн.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;СП182 Димит. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;АТ181 Димит. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;Т181 Димит. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-406 Акит.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ЭМ182 Усман. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;АТ181 Усман. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;САР281 Усман. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;АТ181 Усман2&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-407 Исл.Е.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;КС181 Исл. Е&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp; &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;ЭМ181 Исл. Е&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;ПБ181 Исл.Е&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-408 Зиан.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;АТ181 Зианг. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;СП181 Зианг. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;Э181 Зианг. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-410 Мин.</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;ПБ181 Мин. &nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;Т181 Мин. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;СП181 Мин. 2&nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;СП182 Мин. &nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;Т181 Мин.1&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-с/з 1 ПЛ</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;ЭМ281 Усм. &nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;ОПН282 Вал. &nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;САР271 Усм. &nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;ПК271 Усм. &nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #dfffdf; text-align: left;'>II-с/з 2 ПЛ</td>
+            <td class=schedule style='background-color: #cddbeb'>&nbsp;Э181 Исаева&nbsp;</td>
+            <td class=schedule style='background-color: #e1ebcf'>&nbsp;ЭМ271 Усм. &nbsp;</td>
+            <td class=schedule style='background-color: #dad4e4'>&nbsp;Т181 Вал. &nbsp;</td>
+            <td class=schedule style='background-color: #fcdec6'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #b5ceed'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #cedeae'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c1b3d3'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fbcb97'>&nbsp;&nbsp;</td>
+            </tr><tr><td class=first_cell style='background-color: #f3fff3; text-align: left;'>II-чит. зал.</td>
+            <td class=schedule style='background-color: #dbe5f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #eaf1dd'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #e5e0ec'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #fde9d9'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #c5d9f1'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #d7e4bc'>&nbsp;&nbsp;</td>
+            <td class=schedule style='background-color: #ccc0da'>&nbsp;&nbsp;</td>
+            <td class=schedule style='border-right: 2px solid #000000; background-color: #fcd5b4'>&nbsp;&nbsp;</td>
+            </tr><tr><td colspan=9 style='border-top: 2px solid #000000;'>&nbsp;</td></tr></table>
+</body>
+
+</html>
