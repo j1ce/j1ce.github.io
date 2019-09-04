@@ -2,10 +2,12 @@ table {
 	width: 100%;
 }
 
-.ninetydeg {
-	transform: rotate(-90deg);
+.test {
+	height: 30px;
 }
 
-.pvert {
-	width: 1px;
+.ninetydeg {
+	transform: rotate(-90deg);
+	margin: 0px;
 }
+
