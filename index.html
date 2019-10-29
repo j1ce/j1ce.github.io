@@ -1,111 +1,32 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Таблица Менделеева</title>
+	<title>PR6</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
 </head>
 <body>
-<table border="2">
-<caption>ПЕРИОДИЧЕСКАЯ СИСТЕМА ХИМИЧЕСКИХ ЭЛЕМЕНТОВ Д.И.МЕНДЕЛЕЕВА</caption>
-<thead>
-<tr><td rowspan="3"><br>&nbsp<br>&nbspПери-<br>оды<br>&nbsp<br>&nbsp</td><td rowspan="3">Ряды</td><th align="center" colspan="11">Группы элементов</th><td class="test" rowspan="3"><p class="ninetydeg">Энергетические уровни</p></td></tr>
 
-<tr><td>I</td><td>II</td><td>III</td><td>IV</td><td>V</td><td>VI</td><td>VII</td><td colspan="4">VIII</td></tr>
+	<form action="index.html" class="lform">
+		<h1>Login</h1>
+		<div class="in">
+			<input type="text" name="un" autocomplete="off" required>
+				<span data-placeholder="Username"></span>
+		</div>
+		<div class="in">
+			<input type="text" name="pass" autocomplete="off" required>
+				<span data-placeholder="Password"></span>
+		</div>
+			<input class="lbtn" type="submit">
+	</form>
+	<script type="text/javascript">
+		$(".in input").on("focus",function () {
+		  $(this).addClass("focus");
+		});
 
-<tr><td>а&nbsp&nbsp&nbsp&nbsp&nbspб</td><td>а&nbsp&nbsp&nbsp&nbsp&nbspб</td><td>а&nbsp&nbsp&nbsp&nbsp&nbspб</td><td>а&nbsp&nbsp&nbsp&nbsp&nbspб</td><td>а&nbsp&nbsp&nbsp&nbsp&nbspб</td><td>а&nbsp&nbsp&nbsp&nbsp&nbspб</td><td>а&nbsp&nbsp&nbsp&nbsp&nbspб</td><td colspan="3">б</td><td>а</td></tr>
-</thead>
-<!1>
-<tr>
-	<td>1</td>
-	<td>1</td>
-	<td>H<br>Водород</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td colspan="3"></td>
-	<td>He<br>Гелий</td>
-	<td></td>
-</tr>
-<!2>
-<tr>
-	<td>2</td>
-	<td>2</td>
-	<td>Li<br>Литий</td>
-	<td>Be<br>Бериллий</td>
-	<td>B<br>Бор</td>
-	<td>C<br>Углерод</td>
-	<td>N<br>Азот</td>
-	<td>O<br>Кислород</td>
-	<td>F<br>Фтор</td>
-	<td colspan="3"></td>
-	<td>Ne<br>Неон</td>
-	<td></td>
-</tr>
-<!3>
-<tr>
-	<td>3</td>
-	<td>3</td>
-	<td>Na<br>Натрий</td>
-	<td>Mg<br>Магний</td>
-	<td>Al<br>Алюминий</td>
-	<td>Si<br>Кремний</td>
-	<td>P<br>Фосфор</td>
-	<td>S<br>Сера</td>
-	<td>Cl<br>Хлор</td>
-	<td colspan="3"></td>
-	<td>Ar<br>Аргон</td>
-	<td></td>
-</tr>
-<!4>
-<tr>
-	<td rowspan="2">4</td>
-	<td>4</td>
-	<td>K<br>Калий</td>
-	<td>Ca<br>Кальций</td>
-	<td>Sc<br>Скандий</td>
-	<td>Ti<br>Титан</td>
-	<td>V<br>Ванадий</td>
-	<td>Cr<br>Хром</td>
-	<td>Mn<br>Марганец</td>
-	<td>Fe<br>Железо</td>
-	<td>Co<br>Кобальт</td>
-	<td>Ni<br>Никель</td>
-	<td></td>
-	<td></td>
-</tr>
-<!4.5>
-<tr>
-	<td>5</td>
-	<td><br></td>
-	<td><br></td>
-	<td><br></td>
-	<td><br></td>
-	<td><br></td>
-	<td><br></td>
-	<td><br></td>
-	<td colspan="3"></td>
-	<td><br></td>
-	<td></td>
-</tr>
-<!5.6>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<!5.7>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<!6.8>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<!6.9>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<!7.10>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<!Высшие оксиды>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<!Летучие водородные соединения>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-</table>
-	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A733ca7e899d8811c9e22173d7e16441f42c9eb2fd1fc308331f59140922e768a&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-<img width="100%" src="maxresdefault.jpg">
+		$(".in input").on("blur",function () {
+			if($(this).val() == "")
+			$(this).removeClass("focus")
+		});
+	</script>
 </body>
 </html>
