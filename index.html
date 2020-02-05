@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas</title>
+</head>
+<body>
+<canvas width="820" height="220"></canvas>
+
+<script>
+  	var ctx = document.querySelector("canvas").getContext("2d");  	
+
+  	var matrix = [
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  		[false,false,false,false,false,false,false,false,false],
+  	];
+
+  	function one(StartPosX, StartPosY) {
+  		matrix[StartPosX + 1][StartPosY + 2] = true;
+  		matrix[StartPosX + 2][StartPosY + 1] = true;
+  		matrix[StartPosX + 3][StartPosY + 0] = true;
+  		matrix[StartPosX + 3][StartPosY + 1] = true;
+  		matrix[StartPosX + 3][StartPosY + 2] = true;
+  		matrix[StartPosX + 3][StartPosY + 3] = true;
+  		matrix[StartPosX + 3][StartPosY + 4] = true;
+  		matrix[StartPosX + 3][StartPosY + 5] = true;
+  		matrix[StartPosX + 3][StartPosY + 6] = true;
+  		matrix[StartPosX + 3][StartPosY + 7] = true;
+  		matrix[StartPosX + 3][StartPosY + 8] = true;
+  	}
+  	one(0, 0);
+
+  	function DrawMatrix() {
+  	ctx.fillStyle = "black";
+  	ctx.fillRect(0, 0, 820, 200);
+  	for (let x = 1; x <= 40 ; x++) {
+  		for (let y = 1; y <= 9 ; y++) {
+  			ctx.beginPath();
+			ctx.arc(x * 20,y * 20, 5, 0, Math.PI * 2, false);
+			if (matrix[x - 1][y - 1] == true) {
+				ctx.fillStyle = "white"
+			} else {ctx.fillStyle = "gray";}
+			ctx.fill();
+  	};};};
+
+  	DrawMatrix();
+</script>
+</body>
+</html>
