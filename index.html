@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Time</title>
+	<title>Time</title>
 </head>
 <body>
 
 	<div class="ctr">
 		<div class="cctr">
-			<canvas width="840" height="200"></canvas>
+			<canvas width="800" height="200"></canvas>
 		</div>
 	</div>
 
@@ -20,7 +20,7 @@
 .cctr {
 	position: relative;
 	top: -100px;
-	left: -420px;
+	left: -400px;
 }
 </style>
 
@@ -66,15 +66,11 @@ var matrix = [
   		[false,false,false,false,false,false,false,false,false],
   		[false,false,false,false,false,false,false,false,false],
   		[false,false,false,false,false,false,false,false,false],
-  		[false,false,false,false,false,false,false,false,false],
-  		[false,false,false,false,false,false,false,false,false],
   		[false,false,false,false,false,false,false,false,false]
   	];
 
 function cls() {
 	matrix = [
-  		[false,false,false,false,false,false,false,false,false],
-  		[false,false,false,false,false,false,false,false,false],
   		[false,false,false,false,false,false,false,false,false],
   		[false,false,false,false,false,false,false,false,false],
   		[false,false,false,false,false,false,false,false,false],
@@ -319,15 +315,15 @@ function ddot(StartPosX, StartPosY) {
 	matrix[StartPosX + 0][StartPosY + 3] = true;
 	matrix[StartPosX + 0][StartPosY + 5] = true;
 	matrix[StartPosX + 0][StartPosY + 6] = true;
-	matrix[StartPosX + 1][StartPosY + 2] = true;
-	matrix[StartPosX + 1][StartPosY + 3] = true;
-	matrix[StartPosX + 1][StartPosY + 5] = true;
-	matrix[StartPosX + 1][StartPosY + 6] = true;
+	// matrix[StartPosX + 1][StartPosY + 2] = true;
+	// matrix[StartPosX + 1][StartPosY + 3] = true;
+	// matrix[StartPosX + 1][StartPosY + 5] = true;
+	// matrix[StartPosX + 1][StartPosY + 6] = true;
 };
 function DrawMatrix() {
   	ctx.fillStyle = "black";
-  	ctx.fillRect(0, 0, 840, 200);
-  	for (let x = 1; x <= 41 ; x++) {
+  	ctx.fillRect(0, 0, 800, 200);
+  	for (let x = 1; x <= 39 ; x++) {
   		for (let y = 1; y <= 9 ; y++) {
   			ctx.beginPath();
 			ctx.arc(x * 20,y * 20, 10, 0, Math.PI * 2, false);
@@ -387,7 +383,7 @@ window.onload = function(){
 					break;
 				case ":":
 					ddot(vs, 0);
-					vs +=3;
+					vs +=2;
 			}
 			}
 		DrawMatrix();
