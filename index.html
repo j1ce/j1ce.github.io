@@ -305,7 +305,7 @@
   	for (let x = 1; x <= 80 ; x++) {
   		for (let y = 1; y <= 9 ; y++) {
   			ctx.beginPath();
-			ctx.arc(x * 20,y * 20, 15, 0, Math.PI * 2, false);
+			ctx.arc(x * 20,y * 20, 9, 0, Math.PI * 2, false);
 			if (matrix[x - 1][y - 1] == true) {
 				ctx.fillStyle = "white"
 			} else {ctx.fillStyle = "gray";}
