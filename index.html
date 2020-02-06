@@ -144,10 +144,32 @@
                 matrix[StartPosX + 1][StartPosY + 8] = true; 
                 matrix[StartPosX + 0][StartPosY + 7] = true; 
         }
+        function five(StartPosX, StartPosY) {
+                matrix[StartPosX + 4][StartPosY + 0] = true;
+  		matrix[StartPosX + 3][StartPosY + 0] = true;
+  		matrix[StartPosX + 2][StartPosY + 0] = true;
+  		matrix[StartPosX + 1][StartPosY + 0] = true;
+  		matrix[StartPosX + 0][StartPosY + 0] = true;
+  		matrix[StartPosX + 0][StartPosY + 1] = true;
+  		matrix[StartPosX + 0][StartPosY + 2] = true;
+  		matrix[StartPosX + 0][StartPosY + 3] = true;
+  		matrix[StartPosX + 0][StartPosY + 4] = true;
+  		matrix[StartPosX + 1][StartPosY + 4] = true;
+  		matrix[StartPosX + 2][StartPosY + 4] = true; 
+                matrix[StartPosX + 3][StartPosY + 4] = true;
+                matrix[StartPosX + 4][StartPosY + 5] = true; 
+                matrix[StartPosX + 4][StartPosY + 6] = true; 
+                matrix[StartPosX + 4][StartPosY + 7] = true;
+                matrix[StartPosX + 3][StartPosY + 8] = true; 
+                matrix[StartPosX + 2][StartPosY + 8] = true; 
+                matrix[StartPosX + 1][StartPosY + 8] = true;
+  		matrix[StartPosX + 0][StartPosY + 7] = true;
+        }
 
         one(0, 0);
         two(6, 0);
         three(12, 0);
+        five(24, 0);
   	function DrawMatrix() {
   	ctx.fillStyle = "black";
   	ctx.fillRect(0, 0, 1640, 200);
