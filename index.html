@@ -4,8 +4,9 @@
 	<title>Canvas</title>
 </head>
 <body>
+<center>
 <canvas width="1640" height="220"></canvas>
-
+</center>
 <script>
   	var ctx = document.querySelector("canvas").getContext("2d");  	
 
@@ -95,7 +96,7 @@
   	function one(StartPosX, StartPosY) {
   		matrix[StartPosX + 0][StartPosY + 3] = true;
   		matrix[StartPosX + 1][StartPosY + 2] = true;
-                matrix[StartPosX + 2][StartPosY + 1] = true;
+      matrix[StartPosX + 2][StartPosY + 1] = true;
   		matrix[StartPosX + 3][StartPosY + 0] = true;
   		matrix[StartPosX + 4][StartPosY + 0] = true;
   		matrix[StartPosX + 4][StartPosY + 1] = true;
@@ -107,8 +108,8 @@
   		matrix[StartPosX + 4][StartPosY + 7] = true;
   		matrix[StartPosX + 4][StartPosY + 8] = true;
   	}
-        function two(StartPosX, StartPosY) {
-                matrix[StartPosX + 0][StartPosY + 1] = true;
+    function two(StartPosX, StartPosY) {
+      matrix[StartPosX + 0][StartPosY + 1] = true;
   		matrix[StartPosX + 1][StartPosY + 0] = true;
   		matrix[StartPosX + 2][StartPosY + 0] = true;
   		matrix[StartPosX + 3][StartPosY + 0] = true;
@@ -119,14 +120,14 @@
   		matrix[StartPosX + 2][StartPosY + 5] = true;
   		matrix[StartPosX + 1][StartPosY + 6] = true;
   		matrix[StartPosX + 0][StartPosY + 7] = true; 
-                matrix[StartPosX + 0][StartPosY + 8] = true;
-                matrix[StartPosX + 1][StartPosY + 8] = true; 
-                matrix[StartPosX + 2][StartPosY + 8] = true; 
-                matrix[StartPosX + 3][StartPosY + 8] = true;
-                matrix[StartPosX + 4][StartPosY + 8] = true; 
-        }
-        function three(StartPosX, StartPosY) {
-                matrix[StartPosX + 0][StartPosY + 1] = true;
+      matrix[StartPosX + 0][StartPosY + 8] = true;
+      matrix[StartPosX + 1][StartPosY + 8] = true; 
+      matrix[StartPosX + 2][StartPosY + 8] = true; 
+      matrix[StartPosX + 3][StartPosY + 8] = true;
+      matrix[StartPosX + 4][StartPosY + 8] = true; 
+    }
+    function three(StartPosX, StartPosY) {
+      matrix[StartPosX + 0][StartPosY + 1] = true;
   		matrix[StartPosX + 1][StartPosY + 0] = true;
   		matrix[StartPosX + 2][StartPosY + 0] = true;
   		matrix[StartPosX + 3][StartPosY + 0] = true;
@@ -137,15 +138,33 @@
   		matrix[StartPosX + 2][StartPosY + 4] = true;
   		matrix[StartPosX + 1][StartPosY + 4] = true;
   		matrix[StartPosX + 4][StartPosY + 5] = true; 
-                matrix[StartPosX + 4][StartPosY + 6] = true;
-                matrix[StartPosX + 4][StartPosY + 7] = true; 
-                matrix[StartPosX + 3][StartPosY + 8] = true; 
-                matrix[StartPosX + 2][StartPosY + 8] = true;
-                matrix[StartPosX + 1][StartPosY + 8] = true; 
-                matrix[StartPosX + 0][StartPosY + 7] = true; 
-        }
-        function five(StartPosX, StartPosY) {
-                matrix[StartPosX + 4][StartPosY + 0] = true;
+      matrix[StartPosX + 4][StartPosY + 6] = true;
+      matrix[StartPosX + 4][StartPosY + 7] = true; 
+      matrix[StartPosX + 3][StartPosY + 8] = true; 
+      matrix[StartPosX + 2][StartPosY + 8] = true;
+      matrix[StartPosX + 1][StartPosY + 8] = true; 
+      matrix[StartPosX + 0][StartPosY + 7] = true; 
+    }
+    function four(StartPosX, StartPosY) {
+      matrix[StartPosX + 0][StartPosY + 0] = true;
+      matrix[StartPosX + 0][StartPosY + 1] = true;
+      matrix[StartPosX + 0][StartPosY + 2] = true;
+      matrix[StartPosX + 0][StartPosY + 3] = true;
+      matrix[StartPosX + 1][StartPosY + 4] = true;
+      matrix[StartPosX + 2][StartPosY + 4] = true;
+      matrix[StartPosX + 3][StartPosY + 4] = true;
+      matrix[StartPosX + 4][StartPosY + 0] = true;
+      matrix[StartPosX + 4][StartPosY + 1] = true;
+      matrix[StartPosX + 4][StartPosY + 2] = true;
+      matrix[StartPosX + 4][StartPosY + 3] = true; 
+      matrix[StartPosX + 4][StartPosY + 4] = true;
+      matrix[StartPosX + 4][StartPosY + 5] = true; 
+      matrix[StartPosX + 4][StartPosY + 6] = true; 
+      matrix[StartPosX + 4][StartPosY + 7] = true;
+      matrix[StartPosX + 4][StartPosY + 8] = true; 
+    }
+    function five(StartPosX, StartPosY) {
+      matrix[StartPosX + 4][StartPosY + 0] = true;
   		matrix[StartPosX + 3][StartPosY + 0] = true;
   		matrix[StartPosX + 2][StartPosY + 0] = true;
   		matrix[StartPosX + 1][StartPosY + 0] = true;
@@ -156,17 +175,17 @@
   		matrix[StartPosX + 0][StartPosY + 4] = true;
   		matrix[StartPosX + 1][StartPosY + 4] = true;
   		matrix[StartPosX + 2][StartPosY + 4] = true; 
-                matrix[StartPosX + 3][StartPosY + 4] = true;
-                matrix[StartPosX + 4][StartPosY + 5] = true; 
-                matrix[StartPosX + 4][StartPosY + 6] = true; 
-                matrix[StartPosX + 4][StartPosY + 7] = true;
-                matrix[StartPosX + 3][StartPosY + 8] = true; 
-                matrix[StartPosX + 2][StartPosY + 8] = true; 
-                matrix[StartPosX + 1][StartPosY + 8] = true;
+      matrix[StartPosX + 3][StartPosY + 4] = true;
+      matrix[StartPosX + 4][StartPosY + 5] = true; 
+      matrix[StartPosX + 4][StartPosY + 6] = true; 
+      matrix[StartPosX + 4][StartPosY + 7] = true;
+      matrix[StartPosX + 3][StartPosY + 8] = true; 
+      matrix[StartPosX + 2][StartPosY + 8] = true; 
+      matrix[StartPosX + 1][StartPosY + 8] = true;
   		matrix[StartPosX + 0][StartPosY + 7] = true;
-        }
-        function six(StartPosX, StartPosY) {
-                matrix[StartPosX + 4][StartPosY + 1] = true;
+    }
+    function six(StartPosX, StartPosY) {
+      matrix[StartPosX + 4][StartPosY + 1] = true;
   		matrix[StartPosX + 3][StartPosY + 0] = true;
   		matrix[StartPosX + 2][StartPosY + 0] = true;
   		matrix[StartPosX + 1][StartPosY + 0] = true;
@@ -176,30 +195,117 @@
   		matrix[StartPosX + 0][StartPosY + 4] = true;
   		matrix[StartPosX + 0][StartPosY + 5] = true;
   		matrix[StartPosX + 0][StartPosY + 6] = true;
-  		matrix[StartPosX + 0][StartPosY + 7] = true; 
-                matrix[StartPosX + 1][StartPosY + 8] = true;
-                matrix[StartPosX + 2][StartPosY + 8] = true; 
-                matrix[StartPosX + 3][StartPosY + 8] = true; 
-                matrix[StartPosX + 4][StartPosY + 7] = true;
-                matrix[StartPosX + 4][StartPosY + 6] = true; 
-                matrix[StartPosX + 4][StartPosY + 5] = true; 
-                matrix[StartPosX + 3][StartPosY + 4] = true;
+  		matrix[StartPosX + 0][StartPosY + 7] = true;
+      matrix[StartPosX + 1][StartPosY + 8] = true;
+      matrix[StartPosX + 2][StartPosY + 8] = true;
+      matrix[StartPosX + 3][StartPosY + 8] = true;
+      matrix[StartPosX + 4][StartPosY + 7] = true;
+      matrix[StartPosX + 4][StartPosY + 6] = true;
+      matrix[StartPosX + 4][StartPosY + 5] = true;
+      matrix[StartPosX + 3][StartPosY + 4] = true;
   		matrix[StartPosX + 2][StartPosY + 4] = true;
-                matrix[StartPosX + 1][StartPosY + 4] = true;
-        }
+      matrix[StartPosX + 1][StartPosY + 4] = true;
+    }
+    function seven(StartPosX, StartPosY) {
+      matrix[StartPosX + 0][StartPosY + 0] = true;
+      matrix[StartPosX + 1][StartPosY + 0] = true;
+      matrix[StartPosX + 2][StartPosY + 0] = true;
+      matrix[StartPosX + 3][StartPosY + 0] = true;
+      matrix[StartPosX + 4][StartPosY + 0] = true;
+      matrix[StartPosX + 4][StartPosY + 1] = true;
+      matrix[StartPosX + 1][StartPosY + 5] = true;
+      matrix[StartPosX + 1][StartPosY + 6] = true;
+      matrix[StartPosX + 1][StartPosY + 7] = true;
+      matrix[StartPosX + 3][StartPosY + 2] = true;
+      matrix[StartPosX + 2][StartPosY + 3] = true;
+      matrix[StartPosX + 1][StartPosY + 4] = true;
+      matrix[StartPosX + 1][StartPosY + 8] = true;
+    }
+    function eight(StartPosX, StartPosY) {
+      matrix[StartPosX + 1][StartPosY + 0] = true;
+      matrix[StartPosX + 2][StartPosY + 0] = true;
+      matrix[StartPosX + 3][StartPosY + 0] = true;
+      matrix[StartPosX + 0][StartPosY + 1] = true;
+      matrix[StartPosX + 0][StartPosY + 2] = true;
+      matrix[StartPosX + 0][StartPosY + 3] = true;
+      matrix[StartPosX + 4][StartPosY + 1] = true;
+      matrix[StartPosX + 4][StartPosY + 2] = true;
+      matrix[StartPosX + 4][StartPosY + 3] = true;
+      matrix[StartPosX + 1][StartPosY + 4] = true;
+      matrix[StartPosX + 2][StartPosY + 4] = true;
+      matrix[StartPosX + 3][StartPosY + 4] = true;
+      matrix[StartPosX + 0][StartPosY + 5] = true;
+      matrix[StartPosX + 0][StartPosY + 6] = true;
+      matrix[StartPosX + 0][StartPosY + 7] = true;
+      matrix[StartPosX + 4][StartPosY + 5] = true;
+      matrix[StartPosX + 4][StartPosY + 6] = true;
+      matrix[StartPosX + 4][StartPosY + 7] = true;
+      matrix[StartPosX + 1][StartPosY + 8] = true;
+      matrix[StartPosX + 2][StartPosY + 8] = true;
+      matrix[StartPosX + 3][StartPosY + 8] = true;
+    }
+    function nine(StartPosX, StartPosY) {
+      matrix[StartPosX + 1][StartPosY + 0] = true;
+      matrix[StartPosX + 2][StartPosY + 0] = true;
+      matrix[StartPosX + 3][StartPosY + 0] = true;
+      matrix[StartPosX + 0][StartPosY + 1] = true;
+      matrix[StartPosX + 0][StartPosY + 2] = true;
+      matrix[StartPosX + 0][StartPosY + 3] = true;
+      matrix[StartPosX + 4][StartPosY + 1] = true;
+      matrix[StartPosX + 4][StartPosY + 2] = true;
+      matrix[StartPosX + 4][StartPosY + 3] = true;
+      matrix[StartPosX + 4][StartPosY + 4] = true;
+      matrix[StartPosX + 1][StartPosY + 4] = true;
+      matrix[StartPosX + 2][StartPosY + 4] = true;
+      matrix[StartPosX + 3][StartPosY + 4] = true;
+      matrix[StartPosX + 4][StartPosY + 5] = true;
+      matrix[StartPosX + 4][StartPosY + 6] = true;
+      matrix[StartPosX + 4][StartPosY + 7] = true;
+      matrix[StartPosX + 1][StartPosY + 8] = true;
+      matrix[StartPosX + 2][StartPosY + 8] = true;
+      matrix[StartPosX + 3][StartPosY + 8] = true;
+      matrix[StartPosX + 0][StartPosY + 7] = true;
+    }
+    function zero(StartPosX, StartPosY) {
+      matrix[StartPosX + 1][StartPosY + 0] = true;
+      matrix[StartPosX + 2][StartPosY + 0] = true;
+      matrix[StartPosX + 3][StartPosY + 0] = true;
+      matrix[StartPosX + 0][StartPosY + 1] = true;
+      matrix[StartPosX + 0][StartPosY + 2] = true;
+      matrix[StartPosX + 0][StartPosY + 3] = true;
+      matrix[StartPosX + 4][StartPosY + 1] = true;
+      matrix[StartPosX + 4][StartPosY + 2] = true;
+      matrix[StartPosX + 4][StartPosY + 3] = true;
+      matrix[StartPosX + 0][StartPosY + 5] = true;
+      matrix[StartPosX + 0][StartPosY + 6] = true;
+      matrix[StartPosX + 0][StartPosY + 7] = true;
+      matrix[StartPosX + 4][StartPosY + 5] = true;
+      matrix[StartPosX + 4][StartPosY + 6] = true;
+      matrix[StartPosX + 4][StartPosY + 7] = true;
+      matrix[StartPosX + 1][StartPosY + 8] = true;
+      matrix[StartPosX + 2][StartPosY + 8] = true;
+      matrix[StartPosX + 3][StartPosY + 8] = true;
+      matrix[StartPosX + 0][StartPosY + 4] = true;
+      matrix[StartPosX + 4][StartPosY + 4] = true;
+    }
 
         one(0, 0);
         two(6, 0);
         three(12, 0);
+        four(18, 0);
         five(24, 0);
         six(30, 0);
+        seven(36, 0);
+        eight(42, 0);
+        nine(48, 0);
+        zero(54, 0);
   	function DrawMatrix() {
   	ctx.fillStyle = "black";
-  	ctx.fillRect(0, 0, 1640, 200);
+  	ctx.fillRect(0, 0, 1620, 200);
   	for (let x = 1; x <= 80 ; x++) {
   		for (let y = 1; y <= 9 ; y++) {
   			ctx.beginPath();
-			ctx.arc(x * 20,y * 20, 5, 0, Math.PI * 2, false);
+			ctx.arc(x * 20,y * 20, 15, 0, Math.PI * 2, false);
 			if (matrix[x - 1][y - 1] == true) {
 				ctx.fillStyle = "white"
 			} else {ctx.fillStyle = "gray";}
