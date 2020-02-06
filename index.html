@@ -12,6 +12,9 @@
 	</div>
 
 <style type="text/css">
+body {
+	background-color: black;
+}
 .ctr {
 	position: absolute;
 	top: 50%;
@@ -326,10 +329,16 @@ function DrawMatrix() {
   	for (let x = 1; x <= 39 ; x++) {
   		for (let y = 1; y <= 9 ; y++) {
   			ctx.beginPath();
-			ctx.arc(x * 20,y * 20, 10, 0, Math.PI * 2, false);
+			ctx.arc(x * 20,y * 20, 7, 0, Math.PI * 2, false);
 			if (matrix[x - 1][y - 1] == true) {
-				ctx.fillStyle = "white"
-			} else {ctx.fillStyle = "gray";}
+				ctx.fillStyle = "white";
+				ctx.shadowBlur = 20;
+				ctx.shadowColor = "rgba(255,255,255,100)";
+			} else {
+				ctx.fillStyle = "#333333";
+				ctx.shadowBlur = 0;
+				ctx.shadowColor = "rgba(0,0,0,0)";
+			}
 			ctx.fill();
   	};};};
 window.onload = function(){
