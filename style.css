@@ -14,3 +14,15 @@ body {
 	top: -100px;
 	left: -400px;
 }
+.urls {
+	font-family: "Montserrat";
+	color: white;
+	background-color: rgba(200, 200, 200, .3);
+	radius: 20px;
+}
+h1 {
+	font-weight: 900;
+}
+p {
+	font-weight: 600;
+}
