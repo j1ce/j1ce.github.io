@@ -24,10 +24,11 @@ body {
 	left: -400px;
 }
 .urls {
+	width: 300px;
 	font-family: "Montserrat";
-	color: white;
 	background-color: rgba(200, 200, 200, .3);
-	radius: 20px;
+	border-radius: 20px;
+	padding: 10px;
 }
 h1 {
 	font-weight: 900;
@@ -35,8 +36,12 @@ h1 {
 p {
 	font-weight: 600;
 }
-.urls > a {
+.urls > p > a {
+	color: white;
 	text-decoration: none;
+	&:hover {
+		background-color: rgba(200, 200, 200, .6);
+	}
 }
 	</style>
 </head>
@@ -44,12 +49,10 @@ p {
 	
 	<div class="urls"> 
 		<h1 style="color: white;">Ссылки</h1>
-		<p>
-			<a href="sched">Группы и их расписание</a>
-			<a href="ts">Преподаватели</a>
-			<a href="aud">Аудитории</a>
-			<a href="news">Новостъ 1</a>
-		</p>
+		<p><a href="sched">Группы и их расписание</a></p>
+		<p><a href="ts">Преподаватели</a></p>
+		<p><a href="aud">Аудитории</a></p>
+		<p><a href="news">Новостъ 1</a></p>
 		
 	</div>
 	<div class="ctr">
