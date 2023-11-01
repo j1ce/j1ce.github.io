@@ -1,0 +1,16 @@
+html {
+  overflow: hidden;
+}
+body {
+	background-color: black;
+}
+.ctr {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.cctr {
+	position: relative;
+	top: -100px;
+	left: -400px;
+}
